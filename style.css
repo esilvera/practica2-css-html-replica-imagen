@@ -1,0 +1,83 @@
+body {
+    background-color: lightgrey;
+}
+.container {
+    display: flex;
+    width: 650px;
+    height: 350px;
+    margin: auto;
+    background-color: deepskyblue;
+}
+.container .sticker .acme {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: lightgray;
+    color: black;
+    padding: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 10px;
+    font-weight: bold;
+    border: none;
+}
+.container .base {
+    display: flex;
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    margin: auto
+}
+.container .base .col01 img {
+    width: 200px;
+    height: 300px;
+}
+.container .base .col02 {
+    width: 200px;
+    height: 250px;
+    padding-left: 25px;
+}
+.container .check01 {
+    width: 10px;
+    margin-top: 10px;
+}
+.container .base .col03 {
+    width: 200px;
+    height: 250px;
+    padding-top: 67px;
+}
+.container .check02 {
+    width: 20px;
+    margin-top: 22px;
+    height: 17px;
+}
+input {
+    padding: 3px;
+    width: 140px;
+    font-size: 10px;
+    padding-left: 5px;
+    margin-bottom: 8px;
+}
+.container .base .col02 .firstName, .phone, .password, .lastName, .email, .confirm {
+    font-size: 8px;
+    font-weight: bold;
+}
+.container .col04 {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 300px;
+}
+.container .col04 .sign {
+    background-color: slateblue;
+    color: whitesmoke;
+    padding: 9px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 10px;
+}
+.container .base .col02 span {
+    font-size: 12px;
+}
+.container .base .col03 span {
+    font-size: 15px;
+}
